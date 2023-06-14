@@ -3,13 +3,12 @@
 body{
     margin: 0;
     box-sizing: border-box;
-    overflow: hidden;
+    overflow-x: hidden;
     background-color: #000;
     color: #EBEBEB;
 }
 .hero-section{
     width: 100%;
-    height: 800vh;
     font-family: 'Instrument Sans', sans-serif;
     background-image: url('images/backgroundImages/hero-1.jpg');
     background-repeat: no-repeat;
@@ -30,4 +29,78 @@ body{
     text-align: center;
     padding: 8vw;
     background: linear-gradient(to right, #000000 0%,#00000000 50%,#00000092 0%,#00000000 0%);
+}
+/* professional summary section */
+.heading{
+    padding-bottom: 5vw;
+    font-family: 'Unbounded', cursive;
+    font-size: 2.5vw;
+}
+.vl {
+    border-left: 0.5px solid #EBEBEB;
+    height: 100px;
+    margin-left: 6vw;
+  }
+.profile-summary{
+    line-height: 1.5vw;
+    font-family: 'Instrument Sans', sans-serif;
+}
+#profile{
+    padding-bottom: 5vw;
+}
+/* project section */
+.what-is-below{
+    font-family: 'Unbounded', cursive;
+    padding-bottom: 5vw;
+}
+.what-is-below h5{
+    font-size: 3vw;
+}
+.my-projects{
+    font-family: 'Instrument Sans', sans-serif;
+}
+.project-image img{
+    width: 20vw;
+    height: 15vw;
+    object-fit: cover;
+    border-radius: 0.7vw;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+.project-description{
+    padding-top: 1vw;
+    width: 19vw;
+}
+.project-description h6{
+    font-family: 'Unbounded', cursive;
+}
+#project-row .col-4{
+    padding-bottom: 2vw;
+}
+/* commentary section */
+#commentary-row .col-4 .cover{
+    border-radius: .5vw;
+    background: rgba(254, 254, 254, 0.1);
+    backdrop-filter: blur(20px);
+    padding: 20px;
+    color: #fff;
+    font-family: 'Instrument Sans', sans-serif;
+    font-weight: 100;
+}
+.image-div img {
+    border-radius: 3vw;
+    width: 3vw;
+    height: 3vw;
+    object-fit: cover;
+}
+.comment-section{
+    width: 50vw;
+}
+.comment{
+    padding: 5vw 0vw 5vw 0vw;
+}
+/* foooter section */
+.footer-who{
+    padding: 5vw 0vw 1vw 0vw;
+    font-family: 'Instrument Sans', sans-serif;
 }
