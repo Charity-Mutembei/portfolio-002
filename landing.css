@@ -97,7 +97,7 @@ body{
 }
 .comment-section{
     width: 50vw;
-    background-image: url('images/backgroundImages/hero-1.jpg');
+    /* background-image: url('images/backgroundImages/hero-1.jpg'); */
     background-repeat: no-repeat;
     background-size: contain;
 }
