@@ -30,7 +30,7 @@ body{
     padding: 8vw;
     background: linear-gradient(to right, #000000 0%,#00000000 50%,#00000092 0%,#00000000 0%);
 }
-@media screen and (max-width: 1200px) and (min-width: 810px){
+@media screen and (max-width: 1100px) and (min-width: 810px){
    .second-row {
     font-size: 4vw;
    }
@@ -68,7 +68,7 @@ body{
         height: 500px;
     }
 }
-@media screen and (max-width: 1200px) and (min-width: 810px) {
+@media screen and (max-width: 1100px) and (min-width: 810px) {
     .profile-summary .row .col-5 p{
         line-height: 2.5vw;
         font-size: 1.6vw;
@@ -123,7 +123,7 @@ body{
 #project-row .col-4{
     padding-bottom: 2vw;
 }
-@media screen and (max-width: 1200px) and (min-width: 810px) {
+@media screen and (max-width: 1100px) and (min-width: 810px) {
     .project-description h6{
         font-family: 'Unbounded', cursive;
         font-size: 1.7vw;
@@ -245,7 +245,7 @@ body{
 .comment{
     padding: 5vw 0vw 5vw 0vw;
 }
-@media screen and (max-width: 1200px) and (min-width: 810px){
+@media screen and (max-width: 1100px) and (min-width: 810px){
     .comment-section{
         width: 100vw;
         font-size: 1.5vw;
