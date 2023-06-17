@@ -30,6 +30,11 @@ body{
     padding: 8vw;
     background: linear-gradient(to right, #000000 0%,#00000000 50%,#00000092 0%,#00000000 0%);
 }
+@media screen and (max-width: 1200px) and (min-width: 810px){
+   .second-row {
+    font-size: 4vw;
+   }
+}
 @media screen and (max-width: 390px){
     .hero-section .top-section .row .col-6 p {
         font-size: 3vw;
@@ -61,6 +66,15 @@ body{
     }
     .vl {
         height: 500px;
+    }
+}
+@media screen and (max-width: 1200px) and (min-width: 810px) {
+    .profile-summary .row .col-5 p{
+        line-height: 2.5vw;
+        font-size: 1.6vw;
+    }
+    .vl {
+        height: 650px;
     }
 }
 @media screen and (max-width: 390px){
@@ -108,6 +122,36 @@ body{
 }
 #project-row .col-4{
     padding-bottom: 2vw;
+}
+@media screen and (max-width: 1200px) and (min-width: 810px) {
+    .project-description h6{
+        font-family: 'Unbounded', cursive;
+        font-size: 1.7vw;
+    }
+    .project-description .details p{
+        font-size: 1.5vw;
+        width: 30vw;
+    }
+    .project-description .details p a{
+        font-size: 1.5vw;
+        text-align: center;
+    }
+    .project-image img{
+       object-fit: cover;
+       width: 30vw;
+        height: 20vw;
+        object-fit: cover;
+        border-radius: 0.7vw;
+        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(100%);
+       
+    }
+    #project-row .col-4{
+        width: 100vw;
+    }
+    .my-projects {
+        padding-bottom: 2.5vw;
+    }
 }
 @media screen and (max-width: 810px) and (min-width: 390px) {
     .project-description h6{
@@ -200,6 +244,18 @@ body{
 }
 .comment{
     padding: 5vw 0vw 5vw 0vw;
+}
+@media screen and (max-width: 1200px) and (min-width: 810px){
+    .comment-section{
+        width: 100vw;
+        font-size: 1.5vw;
+    }
+    .image-div img {
+        border-radius: 5vw;
+        width: 5vw;
+        height: 5vw;
+        object-fit: cover;
+    }
 }
 @media screen and (max-width: 810px) and (min-width: 390px){
     .comment-section{
