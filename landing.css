@@ -49,6 +49,15 @@ body{
 #profile{
     padding-bottom: 5vw;
 }
+@media screen and (max-width: 810px) {
+    .profile-summary .row .col-5 p{
+        line-height: 2.5vw;
+        font-size: 1.6vw;
+    }
+    .vl {
+        height: 500px;
+    }
+}
 /* project section */
 .what-is-below{
     font-family: 'Unbounded', cursive;
@@ -78,6 +87,34 @@ body{
 #project-row .col-4{
     padding-bottom: 2vw;
 }
+@media screen and (max-width: 810px) {
+    .project-description h6{
+        font-family: 'Unbounded', cursive;
+        font-size: 1.7vw;
+    }
+    .project-description .details p{
+        font-size: 1.5vw;
+        width: 30vw;
+    }
+    .project-description .details a{
+        font-size: 1.5vw;
+        text-align: center;
+    }
+    .project-image img{
+       object-fit: cover;
+       width: 30vw;
+        height: 20vw;
+        object-fit: cover;
+        border-radius: 0.7vw;
+        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(100%);
+       
+    }
+    #project-row .col-4{
+        padding-right: 35vw;
+        width: 30vw;
+    }
+}
 /* commentary section */
 #commentary-row .col-4 .cover{
     border-radius: .5vw;
@@ -103,6 +140,12 @@ body{
 }
 .comment{
     padding: 5vw 0vw 5vw 0vw;
+}
+@media screen and (max-width: 810px){
+    .comment-section{
+        width: 90vw;
+        font-size: 1.5vw;
+    }
 }
 /* foooter section */
 .footer-who{
