@@ -30,6 +30,11 @@ body{
     padding: 8vw;
     background: linear-gradient(to right, #000000 0%,#00000000 50%,#00000092 0%,#00000000 0%);
 }
+@media screen and (max-width: 390px){
+    .hero-section .top-section .row .col-6 p {
+        font-size: 3vw;
+    }
+}
 /* professional summary section */
 .heading{
     padding-top: 1vw;
@@ -49,13 +54,30 @@ body{
 #profile{
     padding-bottom: 5vw;
 }
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 810px) and (min-width: 390px) {
     .profile-summary .row .col-5 p{
         line-height: 2.5vw;
         font-size: 1.6vw;
     }
     .vl {
         height: 500px;
+    }
+}
+@media screen and (max-width: 390px){
+    .profile-summary .row .col-5 p {
+        font-size: 2.8vw;
+        line-height: 4.5vw;
+    }
+    .vl {
+        border-left: 0.5px solid #EBEBEB;
+        height: 600px;
+        margin-left: 6vw;
+    }
+    .heading{
+        padding-top: 1vw;
+        padding-bottom: 5vw;
+        font-family: 'Unbounded', cursive;
+        font-size: 3vw;
     }
 }
 /* project section */
@@ -87,7 +109,7 @@ body{
 #project-row .col-4{
     padding-bottom: 2vw;
 }
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 810px) and (min-width: 390px) {
     .project-description h6{
         font-family: 'Unbounded', cursive;
         font-size: 1.7vw;
@@ -115,6 +137,44 @@ body{
         width: 30vw;
     }
 }
+@media screen and (max-width: 390px){
+   .my-projects {
+    display: grid;
+   }
+   .what-is-below h5{
+    font-family: 'Unbounded', cursive;
+    padding-top: 4vw;
+    font-size: 8vw;
+    }
+    #project-row .col-4{
+        width: 100vw;
+    }
+    .project-image img{
+        object-fit: cover;
+        width: 95vw;
+         height: 70vw;
+         object-fit: cover;
+         border-radius: 0.7vw;
+         -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+         filter: grayscale(100%);
+        
+     }
+     .project-description h6{
+        font-family: 'Unbounded', cursive;
+        font-size: 6vw;
+        width: 100vw;
+        text-align: left;
+        padding: 5vw 0vw 1vw 0vw;
+    }
+    .project-description .details p{
+        font-size: 4vw;
+        width: 100vw;
+    }
+    .project-description .details a{
+        font-size: 4vw;
+    }
+        
+}
 /* commentary section */
 #commentary-row .col-4 .cover{
     border-radius: .5vw;
@@ -141,11 +201,34 @@ body{
 .comment{
     padding: 5vw 0vw 5vw 0vw;
 }
-@media screen and (max-width: 810px){
+@media screen and (max-width: 810px) and (min-width: 390px){
     .comment-section{
-        width: 90vw;
+        width: 100vw;
         font-size: 1.5vw;
     }
+}
+@media screen and (max-width: 390px){
+    #commentary-row .col-4 .cover{
+        border-radius: .5vw;
+        background: rgba(254, 254, 254, 0.1);
+        backdrop-filter: blur(20px);
+        padding: 20px;
+        color: #fff;
+        font-family: 'Instrument Sans', sans-serif;
+        font-weight: 100;
+        /* background-image: url('images/backgroundImages/hero-1.jpg'); */
+    }
+    .comment-section{
+        width: 100vh;
+        /* background-image: url('images/backgroundImages/hero-1.jpg'); */
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .comment{
+        padding: 5vw 0vw 5vw 0vw;
+        font-size: 4vw;
+    }
+
 }
 /* foooter section */
 .footer-who{
